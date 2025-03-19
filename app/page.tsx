@@ -6,6 +6,7 @@ import Services from '@/components/services/Services';
 import Skill from '@/components/skill/Skill';
 import ContactUs from '@/components/contact-us/ContactUs';
 import LoadingScreen from '@/components/loader/LoadingScreen';
+import Project from '@/components/project/Project';
 
 const HomePage = () => {
   const [loading, setLoading] = useState(true);
@@ -13,7 +14,7 @@ const HomePage = () => {
   useEffect(() => {
     const timer = setTimeout(() => {
       setLoading(false);
-    }, 4000);
+    }, 500);
 
     return () => clearTimeout(timer);
   }, []);
@@ -28,6 +29,7 @@ const HomePage = () => {
       <About />
       <Services />
       <Skill />
+      <Project/>
       <ContactUs />
     </div>
   );

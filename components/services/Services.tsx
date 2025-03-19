@@ -26,6 +26,8 @@ const Services = () => {
                                             width={50}
                                             height={50}
                                             alt='service-icon'
+                                            style={{ width: 'auto', height: 'auto' }}
+                                            priority
                                         />
                                     </div>
 

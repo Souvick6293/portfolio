@@ -21,7 +21,7 @@ export const navLinks = [
     },
     {
         id:5,
-        url:"#project",
+        url:"#my_project",
         label:"Projects"
     },
     {

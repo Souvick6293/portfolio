@@ -16,7 +16,7 @@ const About = () => {
                         viewport={{ once: false, amount: 0.3 }} 
                         transition={{ duration: 1 }}
                     >
-                        <Image src='/assets/about.png' width={1200} height={1200} alt='about'/>
+                        <Image src='/assets/about.png' width={1200} height={1200} alt='about' priority/>
                     </motion.div>
                     <motion.div
                         className="w-full md:w-2/3"

@@ -40,10 +40,10 @@ const Banner = () => {
           >
             <h1 className="text-2xl md:text-2xl lg:text-4xl font-bold leading-11:leading-5 text-bg">
               <span className="text-2xl md:text-3xl lg:text-3xl text-white">
-                Hello, it's Me
+                Hello, its Me
               </span>
               <br />
-              <span className="gradient-text">Souvick Panja</span>
+              <span className="gradient-text">{BaseInfo.name}</span>
               <br />
               <span className="text-2xl md:text-3xl lg:text-3xl text-white">I am a </span>
               <span className="gradient-text">
@@ -60,7 +60,12 @@ const Banner = () => {
             </h1>
             <p className='text-base md:text-lg py-5'>{BaseInfo.introduction}</p>
             <div className='flex gap-4'>
-              <button className='transparent-btn common-btn'><IoCall />Contact me</button>
+              <button
+                className='transparent-btn common-btn'
+                onClick={() => window.location.href = 'tel:+918327671187'}
+              >
+                <IoCall /> Contact me
+              </button>
               <button className='common-btn'><FaDownload />Download CV</button>
             </div>
 
@@ -102,7 +107,14 @@ const Banner = () => {
             viewport={{ once: false, amount: 0.3 }}
           >
             <div className="my-image-container">
-              <Image src='/assets/my-photo.png' width={1200} height={1200} alt='my-photo' className='my-image' />
+              <Image
+                src='/assets/my-photo.png'
+                alt='Portfolio-Banner'
+                width={1200}
+                height={400}
+                className='my-image'
+                priority
+              />
               <div>
                 <div className="logo-slider-container">
                   <Swiper
@@ -122,6 +134,7 @@ const Banner = () => {
                               width={100}
                               height={100}
                               alt={`Logo ${index + 1}`}
+                              priority
                             />
                           )}
                         </div>
