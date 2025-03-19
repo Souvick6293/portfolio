@@ -49,8 +49,8 @@ export const projectData = [
         title: 'Sanctuary cosmetic center',
         description: `Sanctuary Cosmetic Center, located in McLean, Virginia, offers advanced surgical and non-surgical aesthetic treatments. Led by board-certified plastic surgeons, the center provides procedures for the face, chest, abdomen, and body contouring. Popular non-surgical options include CoolSculpting Elite for fat reduction, Diamond Glow for radiant skin, and FaceTite & BodyTite for tighter contours. They also offer Laser Hair Removal for smooth skin, Microblading for fuller brows, and Silhouette Instalift for a youthful lift.`,
         projectImage: '/assets/sanctuary-project.png',
-        projectGitLink: 'https://www.facebook.com/',
-        projectUrlLink: 'fb.com',
+        projectGitLink: 'https://github.com/Souvick6293/Sanctuary-cosmetic-center',
+        projectUrlLink: 'https://souvick6293.github.io/Sanctuary-cosmetic-center/',
         technologies: 'HTML, CSS, JavaScript, Bootstrap'
     },
      {
@@ -59,8 +59,8 @@ export const projectData = [
         description:`In 2024, Webskitters Academy organized the "Code with Puja" contest, where participants were tasked with designing a Puja-themed website using HTML, CSS, and JavaScript. I participated in the contest and created a vibrant Diwali-themed website, which eventually won the competition.
         This website beautifully captures the essence of Diwali, showcasing how we can illuminate our surroundings with vibrant lights and celebrate the festival with joy. It highlights various Diwali events, offering ideas on how to spend the festival in a memorable way. Additionally, the website features insights into famous Kali temples, emphasizing their cultural significance during this auspicious occasion.`,
         projectImage:'/assets/diwali-project.png',
-        projectGitLink:'',
-        projectUrlLink:'',
+        projectGitLink:'https://github.com/Souvick6293/diwali-code-with-puja',
+        projectUrlLink:'https://souvick6293.github.io/diwali-code-with-puja/',
         technologies: 'HTML, CSS, JavaScript, Bootstrap'
      },
      {
@@ -68,8 +68,8 @@ export const projectData = [
         title:'Engiconnect International Digital Marketplace',
         description:`Engiconnect International is a digital horizontal marketplace that I have developed to simplify access to essential industrial products. I have designed this platform to include multiple verticals such as durable hand tools, high-quality bicycles, efficient pumps and valves, and reliable fasteners. My goal was to create a platform that offers a seamless, secure, and efficient solution for both buyers and sellers. Through Engiconnect International, I aim to connect businesses globally and make trade easier than ever.`,
         projectImage:'/assets/engiconnect-project.png',
-        projectGitLink:'fb.com',
-        projectUrlLink:'fb.com',
+        projectGitLink:'https://github.com/Souvick6293/Engiconnect-International-Digital-Marketplace',
+        projectUrlLink:'https://souvick6293.github.io/Engiconnect-International-Digital-Marketplace/',
         technologies: 'HTML, CSS, JavaScript, Bootstrap'
      },
      {

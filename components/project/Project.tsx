@@ -22,8 +22,6 @@ const Project = () => {
     const [selectedProject, setSelectedProject] = useState<Project | null>(null);
     const [showAllProjects, setShowAllProjects] = useState<boolean>(false);
 
-
-
     const handleOpenModal = (project: Project) => {
         setSelectedProject(project);
         setIsModalOpen(true);
@@ -73,7 +71,9 @@ const Project = () => {
                                     opacity-0 group-hover:opacity-100 translate-y-full 
                                     ${isModalOpen ? 'opacity-70 translate-y-0' : 'group-hover:translate-y-0'}
                                     transition-all duration-700 ease-in-out flex items-center justify-center`}
+                                    
                                     onClick={() => handleOpenModal(project)}
+                                    onTouchStart={() => handleOpenModal(project)}
                                 >
                                     <FaEye className='text-white text-4xl cursor-pointer' />
                                 </div>

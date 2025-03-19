@@ -78,7 +78,7 @@ const Banner = () => {
                     href={link.url}
                     target="_blank"
                     className="p-3 rounded-full bg-gradient-to-br from-[#a14eaa] to-[#4c1d95] hover:hover:rotate-360 duration-500 transition text-white text-2xl"
-                    initial={{ opacity: 0, x: -100 }}
+                    initial={{ opacity: 0, x: -50 }}
                     whileInView={{ opacity: 1, x: 0, rotate: 360 }}
                     transition={{
                       duration: 1.5,
