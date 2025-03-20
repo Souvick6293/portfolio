@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     description: "Check out my portfolio showcasing modern web development skills using React.js and Next.js.",
     images: [
       {
-        url: "/assets/my-photo.png",
+        url: "/assets/og-img.png",
         width: 1200,
         height: 630,
         alt: "Portfolio-Banner"
