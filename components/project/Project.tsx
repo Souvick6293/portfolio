@@ -74,6 +74,7 @@ const Project = () => {
                                     
                                     onClick={() => handleOpenModal(project)}
                                     onTouchStart={() => handleOpenModal(project)}
+                                    onFocus={() => handleOpenModal(project)}
                                 >
                                     <FaEye className='text-white text-4xl cursor-pointer' />
                                 </div>
@@ -90,7 +91,6 @@ const Project = () => {
                     </button>
                 </div>
 
-                {/* Modal Section */}
                 {isModalOpen && selectedProject && (
                     <motion.div
                         initial={{ opacity: 0, y: -50 }}

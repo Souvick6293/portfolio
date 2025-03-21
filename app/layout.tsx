@@ -21,7 +21,7 @@ export const metadata: Metadata = {
         alt: "Portfolio-Banner"
       }
     ],
-    url: "https://yourportfolio.com"
+    url: "https://portfolio-svw5.vercel.app/"
   }
 };
 
