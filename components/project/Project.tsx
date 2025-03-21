@@ -63,6 +63,7 @@ const Project = () => {
                                         alt='project-image'
                                         className='w-full h-full object-cover'
                                         priority
+                                        onClick={() => handleOpenModal(project)}
                                     />
                                 </div>
 
@@ -74,7 +75,6 @@ const Project = () => {
                                     
                                     onClick={() => handleOpenModal(project)}
                                     onTouchStart={() => handleOpenModal(project)}
-                                    onFocus={() => handleOpenModal(project)}
                                 >
                                     <FaEye className='text-white text-4xl cursor-pointer' />
                                 </div>
