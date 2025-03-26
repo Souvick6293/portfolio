@@ -1,5 +1,6 @@
 "use client"
 import { navLinks } from '@/constants/constands'
+import Image from 'next/image';
 import Link from 'next/link'
 import React, { useEffect, useState } from 'react'
 import { RiMenuUnfoldFill } from "react-icons/ri";
@@ -31,7 +32,9 @@ const DesktopNav = ({openNav}:Props) => {
     <div className={`fixed ${navBg ? "bg-gradient-to-br from-[#a14eaa] to-[#4c1d95] " : "fixed"} h-[10vh] z-[10]  w-full transition-all duration-200`}>
         <div className="h-full flex justify-between items-center mx-auto container">
             <div>
-                <Link href="/" className='text-[25px] font-bold'>Portfolio</Link>.
+                <Link href="/" className=''>
+                    <Image src={'/assets/my-logo.png'} alt='my-logo' width={150} height={60}/>
+                </Link>
             </div>
 
             {/* Nav Link area  */}

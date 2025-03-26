@@ -4,12 +4,24 @@ import Navbar from "@/components/navbar/Navbar";
 import "./../style/style.css"
 import "./../style/mediaquery.css"
 import Footer from "@/components/footer/Footer";
-import HeadComponent from './head';
+
 
 export const metadata: Metadata = {
   title: "Souvick Panja | Frontend Web Developer",
   description: "I specialize in building dynamic, responsive, and SEO-optimized websites using React.js, Next.js, and modern web technologies. Explore my projects now!",
-  keywords: "Frontend Developer, React.js Developer, Next.js Developer, Web Developer, JavaScript Expert, UI/UX Designer, Portfolio Website, Responsive Design, SEO Optimization",
+  keywords: [
+    "Souvick Panja",
+    "SouvickDev",
+    "Frontend Developer",
+    "React.js Developer",
+    "Next.js Developer",
+    "Web Developer",
+    "JavaScript Expert",
+    "UI/UX Designer",
+    "Portfolio Website",
+    "Responsive Design",
+    "SEO Optimization",
+  ],
   openGraph: {
     title: "Souvick Panja | Frontend Web Developer",
     description: "Check out my portfolio showcasing modern web development skills using React.js and Next.js.",
@@ -32,7 +44,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <HeadComponent/>
       <body
         className={"antialiased"}>
           <Navbar/>

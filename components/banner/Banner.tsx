@@ -66,7 +66,11 @@ const Banner = () => {
               >
                 <IoCall /> Contact me
               </button>
-              <button className='common-btn'><FaDownload />Download CV</button>
+              <button className='common-btn'>
+                <a href="/assets/souvick-cv.pdf" download="Souvick_Panja_CV.pdf" className="flex items-center gap-2">
+                  <FaDownload /> Download CV
+                </a>
+              </button>
             </div>
 
             <div className="flex gap-3 py-4">
@@ -122,6 +126,7 @@ const Banner = () => {
                     slidesPerView={4}
                     autoplay={{ delay: 2000 }}
                     modules={[Autoplay]}
+                    loop={true}
                     className="mySwiper"
                     onSlideChange={(swiper) => setActiveIndex(swiper.realIndex)}
                   >

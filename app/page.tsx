@@ -7,6 +7,8 @@ import Skill from '@/components/skill/Skill';
 import ContactUs from '@/components/contact-us/ContactUs';
 import LoadingScreen from '@/components/loader/LoadingScreen';
 import Project from '@/components/project/Project';
+import Journey from '@/components/journey/Journey';
+
 
 const HomePage = () => {
   const [loading, setLoading] = useState(true);
@@ -27,6 +29,7 @@ const HomePage = () => {
     <div>
       <Banner />
       <About />
+      <Journey/>
       <Services />
       <Skill />
       <Project/>

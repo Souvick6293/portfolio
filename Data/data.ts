@@ -37,9 +37,17 @@ export const skillsData = [
     { title: 'Bootstrap', percent: 85, progressColor: '#22c55e' },
     { title: 'Tailwind', percent: 60, progressColor: '#a855f7' },
     { title: 'JavaScript', percent: 70, progressColor: '#f97316' },
+    { title: 'TypeScript', percent: 60, progressColor: '#3b82f6' },
     { title: 'React JS', percent: 80, progressColor: '#3b82f6' },
     { title: 'Next JS', percent: 65, progressColor: '#22c55e' },
-    { title: 'Material UI', percent: 75, progressColor: '#a855f7' }
+    { title: 'Material UI', percent: 75, progressColor: '#a855f7' },
+    { title: 'Redux', percent: 60, progressColor: '#a85558' },
+    { title: 'Tanstack Query', percent: 70, progressColor: '#f43f5e' },
+    { title: 'Sanity', percent: 70, progressColor: '#3b82f6' },
+    { title: 'Supabase', percent: 50, progressColor: '#10b981' },
+    { title: 'Prisma', percent: 40, progressColor: '#f59e0b' },
+    { title: 'Git & GitHub', percent: 70, progressColor: '#8b5cf6' },
+
 ];
 
 
