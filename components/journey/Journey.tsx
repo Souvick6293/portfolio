@@ -9,8 +9,8 @@ interface TimelineItem {
   title: string;
   organization: string;
   description: string;
-  startDate: string;
-  endDate?: string;
+  startDate: number;
+  endDate?: number;
   iconUrl?: string;
 }
 

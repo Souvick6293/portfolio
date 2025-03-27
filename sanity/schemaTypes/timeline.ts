@@ -15,7 +15,6 @@ export default defineType({
             name: "organization",
             title: "Organization",
             type: "string",
-            validation: (Rule) => Rule.required().min(2).max(50),
         }),
         defineField({
             name: "description",
