@@ -8,7 +8,7 @@ const nextConfig = {
 
 // Make sure adding Sentry options is the last code to run before exporting
 export default withSentryConfig(nextConfig, {
-  org: "https://portfolio-svw5.vercel.app/",
+  org: "https://souvick-dev.vercel.app",
   project: "souvick portfolio",
 
   // Only print logs for uploading source maps in CI

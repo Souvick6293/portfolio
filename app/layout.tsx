@@ -33,7 +33,7 @@ export const metadata: Metadata = {
         alt: "Portfolio-Banner"
       }
     ],
-    url: "https://portfolio-svw5.vercel.app/"
+    url: "https://souvick-dev.vercel.app"
   }
 };
 
