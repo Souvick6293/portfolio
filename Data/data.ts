@@ -82,11 +82,20 @@ export const projectData = [
      },
      {
         id:4,
+        title:'Taskify - Manage Your Tasks Effortlessly',
+        description:`Taskify is a user-friendly task management web application designed to help individuals and teams organize, track, and complete their tasks efficiently. It offers features like task creation, deadlines, tags, status updates, and role-based access to streamline productivity.`,
+        projectImage:'/assets/taskify-project.png',
+        projectGitLink:'https://github.com/Souvick6293/Taskify',
+        projectUrlLink:'https://taskify-sp.vercel.app/',
+        technologies: 'HTML, CSS, TypeScript, Next.js, Supabase, Tailwind, Tanstack etc'
+     },
+     {
+        id:5,
         title:'Title: Fresh Bazar - Your Daily Grocery Partner',
         description:`Fresh Bazar is a modern and user-friendly grocery e-commerce website designed to simplify your daily shopping experience. With a wide range of fresh fruits, vegetables, dairy products, and essential household items, Fresh Bazar ensures quality and convenience at your fingertips. The website offers an intuitive interface, easy navigation, and secure checkout, making it the perfect solution for all your grocery needs. Whether you're planning a quick meal or stocking up for the week, Fresh Bazar has you covered!`,
         projectImage:'/assets/fresh-project.png',
-        projectGitLink:'fb.com',
-        projectUrlLink:'fb.com',
+        projectGitLink:'',
+        projectUrlLink:'',
         technologies: 'HTML, CSS, JavaScript, React Js, Mui, Redux etc'
      }
 ];
